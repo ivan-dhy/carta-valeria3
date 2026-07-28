@@ -17,6 +17,14 @@ Eres una persona muy especial para mí
 y siempre voy a guardar con cariño
 todo lo que vivimos.
 
+Si lees esto es porque llegaste 
+a intentar ver el link y si cargo,
+bueno 
+te amo 
+te quiero 
+te voy a extrañar
+cuidate mucho cariño.
+
 `;
 
 
