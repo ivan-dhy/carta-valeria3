@@ -7,7 +7,7 @@ te recomiendo verlo en modo escritorio
 y tomarte un tiempo porque si es largo 
 
 Si ves esto es porque si lo abriste 
-recuerddad 
+recuerda
 TE AMO,
 TE QUIERO,
 TE EXTRAÑOOO.
@@ -26,7 +26,6 @@ cada recuerdo que hemos creado juntos.
 Eres una persona muy especial para mí
 y siempre voy a guardar con cariño
 todo lo que vivimos.
-
 
 `;
 
