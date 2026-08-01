@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    height:100vh;
+
+    overflow:hidden;
+
+    background:
+    radial-gradient(circle at top,#3b2d1f,#151515);
+
+    font-family:Georgia, serif;
+
+}
+
+/* Fondo */
+
+.contenedor{
+
+    width:100%;
+
+    height:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+/* Hoja */
+
+.hoja{
+
+    width:80%;
+
+    max-width:900px;
+
+    height:82vh;
+
+    background:#f9f3e7;
+
+    border-radius:10px;
+
+    padding:60px;
+
+    box-shadow:
+    0 0 50px rgba(0,0,0,.6);
+
+    overflow:auto;
+
+    animation:entrada 2s;
+
+}
+
+/* Título */
+
+h1{
+
+    text-align:center;
+
+    color:#8b1e2d;
+
+    font-size:45px;
+
+    margin-bottom:40px;
+
+}
+
+/* Texto */
+
+#texto{
+
+    font-size:24px;
+
+    line-height:2;
+
+    color:#3d3d3d;
+
+    white-space:pre-line;
+
+}
+
+/* Botón */
+
+#continuar{
+
+    display:none;
+
+    margin:50px auto 0;
+
+    width:250px;
+
+    text-align:center;
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#8b1e2d;
+
+    padding:15px;
+
+    border-radius:40px;
+
+    font-size:22px;
+
+    transition:.3s;
+
+}
+
+#continuar:hover{
+
+    background:#b3263c;
+
+    transform:scale(1.05);
+
+}
+
+/* Partículas */
+
+.particulas{
+
+    position:absolute;
+
+    width:100%;
+
+    height:100%;
+
+    overflow:hidden;
+
+    z-index:-1;
+
+}
+
+.particula{
+
+    position:absolute;
+
+    width:4px;
+
+    height:4px;
+
+    border-radius:50%;
+
+    background:#ffd86b;
+
+    animation:flotar linear infinite;
+
+}
+
+@keyframes flotar{
+
+    from{
+
+        transform:translateY(100vh);
+
+        opacity:0;
+
+    }
+
+    20%{
+
+        opacity:1;
+
+    }
+
+    to{
+
+        transform:translateY(-100px);
+
+        opacity:0;
+
+    }
+
+}
+
+@keyframes entrada{
+
+    from{
+
+        opacity:0;
+
+        transform:scale(.9);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:scale(1);
+
+    }
+
+}
+
+/* Scroll bonito */
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#b88d5c;
+
+    border-radius:10px;
+
+}
