@@ -64,24 +64,27 @@ let i=0;
 
 function escribir(){
 
+    if(i < texto.length){
 
-if(i < texto.length){
+        document.getElementById("mensaje").innerHTML += texto.charAt(i);
 
+        i++;
 
-document.getElementById("mensaje").innerHTML += texto.charAt(i);
+        setTimeout(escribir,60);
 
+    }
 
-i++;
+    else{
 
+        const boton = document.getElementById("continuar");
 
-setTimeout(escribir,60);
+        boton.style.display = "inline-block";
 
+        boton.style.animation = "aparecerBoton 1.5s";
+
+    }
 
 }
-
-
-}
-
 
 
 setTimeout(escribir,2500);
