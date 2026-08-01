@@ -2,6 +2,16 @@ const texto = `
 
 Cariño...
 
+Si estas leyendo esto es porque si abriste el link
+te recomiendo verlo en modo escritorio 
+y tomarte un tiempo porque si es largo 
+
+Si ves esto es porque si lo abriste 
+recuerddad 
+TE AMO,
+TE QUIERO,
+TE EXTRAÑOOO.
+
 No sé exactamente cómo empezar esta carta,
 porque hay sentimientos que son demasiado grandes
 para explicarlos con simples palabras.
@@ -17,13 +27,6 @@ Eres una persona muy especial para mí
 y siempre voy a guardar con cariño
 todo lo que vivimos.
 
-Si lees esto es porque llegaste 
-a intentar ver el link y si cargo,
-bueno 
-te amo 
-te quiero 
-te voy a extrañar
-cuidate mucho cariño.
 
 `;
 
